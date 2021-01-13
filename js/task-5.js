@@ -1,7 +1,7 @@
 'use strict'
 
 const checkForSpam = function (message) {
-   let forbiddenWords = message.toLowerCase().includes('sale') || message.toLowerCase().includes('spam');
+   const forbiddenWords = message.toLowerCase().includes('sale') || message.toLowerCase().includes('spam');
 
    console.log(forbiddenWords);
    
